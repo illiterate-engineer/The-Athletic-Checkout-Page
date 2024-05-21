@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Kanit", sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.nav-container {
+    color: white;
+    height: 6rem;
+    padding: 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 127rem;
+    margin: 0 auto;
+}
+
+.nav-box2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+
+.log-in-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.main-form-container {
+    max-width: 32rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout-text {
+    margin: 3.8rem 0 0.8rem;
+    font-size: 3.7rem;
+    font-weight: 500;
+    font-family: "Kanit", sans-serif;
+}
+
+.first-hz-line,
+.second-hz-line,
+.third-hz-line,
+.fourth-hz-line {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #121212;
+}
+
+.first-hz-line {
+    margin-bottom: 0.5rem;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.subscription-text,
+.account-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.change-text {
+    font-size: 1.2rem;
+    color: #225fa7;
+    cursor: pointer;
+}
+
+.plan-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.annual-plan-container {
+    display: flex;
+    font-size: 1.19rem;
+    font-weight: 450;
+}
+
+.money-text {
+    font-weight: 300 !important;
+    padding-left: 0.4rem;
+}
+
+.billing-info-text {
+    font-size: 0.88rem;
+    font-weight: 300;
+    color: #52524f;
+    letter-spacing: 0.05rem;
+}
+
+.second-hz-line {
+    margin-top: 1.8rem;
+}
+
+.account-text {
+    text-align: left;
+    margin: 0.4rem 0 0.8rem;
+}
+
+.google-btn {
+    font-family: 'Kanit';
+    border: 1px solid #e2e2e2;
+    background-color: white;
+    color: black;
+    height: 4rem;
+    width: 100%;
+    font-weight: 450;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.icon-email {
+    width: 1.7rem;
+    height: 1.7rem;
+    position: relative;
+    right: 8rem;
+}
+
+.or-container {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+
+.or-child {
+    margin: 0 0.5rem;
+}
+
+.email-text {
+    color: #52524f;
+    font-family: 'Calibre';
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.email-input-container {
+    margin-top: 0.6rem;
+    width: 100%;
+}
+
+.email-input-container input {
+    width: 100%;
+    height: 4rem;
+    padding: 1.5rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    outline-color: #000;
+}
+
+.email-address-input::placeholder {
+    font-size: 1.12rem;
+    letter-spacing: 0.02rem;
+    color: #52524f;
+    font-weight: 500;
+}
+
+.continue-btn-black {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 2rem;
+    width: 100%;
+}
+
+.account-info-container {
+    font-weight: 300 !important;
+    padding-left: 0.4rem;
+    font-size: 1.19rem;
+}
+
+.account-info-container a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+.third-hz-line {
+    margin: 2rem 0;
+    border-color: #c4c4c0;
+}
+
+.disclaimer-container {
+    color: #52524f;
+    font-size: 1.15rem;
+    font-weight: 200;
+    letter-spacing: -0.04rem;
+    width: 100%;
+}
+
+.disclaimer-container a {
+    color: #52524f;
+}
+
+.fourth-hz-line {
+    margin: 1rem 0;
+    border-color: #c4c4c0;
+}
+
+.payment-text {
+    color: #c4c4c0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+    width: 100%;
+    text-align: left;
+}
